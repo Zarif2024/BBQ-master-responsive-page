@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size:1rem ;
+    color: #404040;
+    text-align: center;
+}
+h1{
+    font:2.5rem ;
+    font-weight: 300;
+    color: aliceblue;
+    margin:  0;
+}
+h1+p {
+    font-weight: 900;
+    font-size: 1.325rem;
+    color:#f18119 ;
+    text-transform:uppercase ;
+    
+}
+h2+h5{
+    color: #f18119;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+h5+p{
+    line-height:1.75rem;
+}
+strong{
+    font-weight: 9000;
+}
+.top-text{
+    font-size: 0.625rem;
+    font-weight: 900;
+    color: #f18119;
+    text-transform: uppercase;
+}
+.left-container{
+    background-image: url(Untitled\ design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    
+   
+    
+}
+.right-container{
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.info{
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 2rem;
+    
+    
+    
+}
+.intro{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container-intro{
+    display: flex;
+    flex-direction: column;;
+    justify-content: space-between;
+    min-height: 50vh;
+    
+
+}
+.info input{
+   padding: 1rem;
+   margin-top: 1em;
+   border: 1px rgb(172, 174, 175) solid;
+   border-radius: 10px;
+   
+}
+button{
+    text-transform: uppercase;
+    padding: 1rem 5rem;
+    margin-top: 1rem;
+    background-color: #f18119;
+    border: 1px rgb(172, 174, 175) solid;
+    border-radius: 10px;
+    
+    cursor: pointer;
+ }
+ button:hover{
+    color: aliceblue;
+    background-image: linear-gradient(to right ,#ff713b, #ffa51d);
+
+ }
+   
+    
+    
+
+ 
+    
+
+
+@media (min-width:800px){
+    body{
+        font-size: 1.125rem;
+       
+    }
+    .container{
+        flex-direction: row;
+        min-height: 100vh;
+    }
+    .right-container{
+        max-width: 50vw;
+    }
+    .left-container{
+        height: 100vh;
+        justify-content: space-between;
+        min-width: 50vw;
+        
+    
+    
+    }
+    .container-intro{
+        height: 100%;
+    }
+  
+    
+    h1{
+        font-size: 3.5rem;
+        font-family: 'Poppins',sans-serif;
+
+    }
+    h2{
+        font-size: 1.75rem;
+    }
+    
+
+}
